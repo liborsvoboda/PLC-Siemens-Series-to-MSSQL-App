@@ -1,0 +1,8 @@
+Specifické pøíkazy MSSQL 
+dbo.fn_IntReal2Real(*dr*)                                = naètení real hodnoty 
+DATEADD(dd,*dw*,CAST ('1990-01-01' AS DATE))             = naètení datumu
+CONVERT(bit,'*0x2*')                                     = naètení bitu
+'*dbd1*'                                                 = naètení stringu 
+CASE WHEN *bb3*<128 THEN *bb3* ELSE *bb3*-256 END        = naètení bytu
+CASE WHEN *dbw0*<32768 THEN *dbw0* ELSE *dbw0*-65536 END = naètení integeru
+CONVERT(VARCHAR,DATEADD(ms,*dt1*,0),114)                 = naètení TOD èasu

@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="ClientDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="ConnectBtn" Content="Connect" HorizontalAlignment="Left" Margin="23,104,0,0" VerticalAlignment="Top"                      Width="133"/>
+        <TextBox x:ConnectionId='2' x:Name="TxtIP" HorizontalAlignment="Left" Height="5" Margin="23,50,0,0" TextWrapping="Wrap" Text="192.168.0.71" VerticalAlignment="Top" Width="133"                                />
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Height="21" Margin="23,24,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:ConnectionId='4' x:Name="TxtRack" HorizontalAlignment="Left" Margin="163,50,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="29" RenderTransformOrigin="0.5,0.5">
+        </TextBox>
+
+        <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="21" Margin="164,24,0,0" TextWrapping="Wrap" Text="Rack" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:ConnectionId='6' x:Name="TxtSlot" HorizontalAlignment="Left" Margin="233,50,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.5,0.5">
+        </TextBox>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="21" Margin="235,24,0,0" TextWrapping="Wrap" Text="Slot" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:ConnectionId='8' x:Name="TxtResult" HorizontalAlignment="Left" Height="32" Margin="10,572,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="620"/>
+        <Button x:ConnectionId='9' x:Name="DisconnectBtn" Content="Disconnect" HorizontalAlignment="Left" Height="33" Margin="164,104,0,0" VerticalAlignment="Top" Width="133"                            />
+        <TextBox x:ConnectionId='10' x:Name="TxtDump" HorizontalAlignment="Left" Height="213" Margin="23,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="586" AcceptsReturn="True"/>
+        <Button x:ConnectionId='11' x:Name="ReadBtn" Content="Read" HorizontalAlignment="Left" Margin="23,180,0,0" VerticalAlignment="Top" Width="133"                      />
+        <Button x:ConnectionId='12' x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="173,179,0,0" VerticalAlignment="Top"                       />
+
+    </Grid>
+</Page>
+

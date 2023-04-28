@@ -1,0 +1,14 @@
+C:\Snap7\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.dll
+C:\Snap7\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.pdb
+C:\Snap7\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.dll
+C:\Snap7\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\sharp7-full-1.0.0\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.dll
+C:\Users\WinCC_73\Desktop\sharp7-full-1.0.0\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\sharp7-full-1.0.0\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.csprojResolveAssemblyReference.cache
+C:\Users\WinCC_73\Desktop\sharp7-full-1.0.0\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.dll
+C:\Users\WinCC_73\Desktop\sharp7-full-1.0.0\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.dll
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\bin\Release\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.dll
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\Sharp7.net\obj\Release\Sharp7.net.csprojResolveAssemblyReference.cache

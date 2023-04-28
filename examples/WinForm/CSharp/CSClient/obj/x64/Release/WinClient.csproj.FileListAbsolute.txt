@@ -1,0 +1,8 @@
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\bin\x64\CSClient.exe
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\bin\x64\CSClient.pdb
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csprojResolveAssemblyReference.cache
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.MainForm.resources
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.Properties.Resources.resources
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csproj.GenerateResource.Cache
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.exe
+C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.pdb

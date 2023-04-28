@@ -1,0 +1,1 @@
+C:\sharp7-full-1.0.0\examples\UWP\ClientDemo\ClientDemo\ClientDemo.csproj;x86

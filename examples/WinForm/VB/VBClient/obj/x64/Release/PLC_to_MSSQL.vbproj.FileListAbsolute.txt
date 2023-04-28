@@ -1,0 +1,14 @@
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x64\PLC_to_MSSQL.exe.config
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\PLC_to_MSSQL.exe.config
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\PLC_to_MSSQL.exe.config
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\PLC_to_MSSQL.exe
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\PLC_to_MSSQL.pdb
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\PLC_to_MSSQL.xml
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\Sharp7.net.dll
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\bin\x86\Sharp7.net.pdb
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.frm_mainform.resources
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.Resources.resources
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.vbproj.GenerateResource.Cache
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.exe
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.xml
+C:\Users\WinCC_73\Desktop\SFO_Odry\sharp7-full-1.0.0\examples\WinForm\VB\VBClient\obj\x64\Release\PLC_to_MSSQL.pdb
