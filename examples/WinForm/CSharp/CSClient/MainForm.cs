@@ -1,13 +1,14 @@
-﻿using System;
-using System.Runtime.InteropServices;
+﻿using Sharp7;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using Sharp7;
 
 namespace CSClient
 {
@@ -719,6 +720,59 @@ namespace CSClient
         private void DBGetBtn_Click(object sender, EventArgs e)
         {
             GetSelectedDB();
+        }
+
+        private void TxtIP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            byte[] dataBuffer = new byte[int.Parse(BufferLength.Text)];
+            int PlcResult = Client.DBRead(int.Parse(DbField.Text), int.Parse(StartField.Text), int.Parse(SizeBox.Text), dataBuffer);
+
+            if (PlcResult == 0) { TextError.Text ="Data Read OK"; }
+            else { TextError.Text = "Data Read Error Number: " + PlcResult.ToString(); }
+                
+            dbReadTextBox.Text = ByteArrayToString(dataBuffer);
+        }
+
+        public static string ByteArrayToString(byte[] ba)
+        {
+            StringBuilder hex = new StringBuilder(ba.Length * 2);
+            foreach (byte b in ba)
+                hex.AppendFormat("{0:x2}", b);
+            return hex.ToString();
+        }
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+            byte[] dataBuffer = new byte[int.Parse(BufferGetLength.Text)];
+            int DbGetSizeRef = int.Parse(DbGetSize.Text);
+            int PlcResult = Client.DBGet(int.Parse(DbGetField.Text), dataBuffer,ref DbGetSizeRef);
+
+            if (PlcResult == 0) { TextError.Text = "Data Read OK"; }
+            else { TextError.Text = "Data Read Error Number: " + PlcResult.ToString(); }
+
+            dbReadGetTextBox.Text = ByteArrayToString(dataBuffer);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DbWriteButton_Click(object sender, EventArgs e)
+        {
+            byte[] dataBuffer = new byte[int.Parse(BufferGetLength.Text)];
+            dataBuffer = Encoding.ASCII.GetBytes(DbWriteTextBox.Text);
+            int PlcResult = Client.DBWrite(int.Parse(DbWriteField.Text), int.Parse(DbWriteStart.Text), int.Parse(DbWriteSize.Text), dataBuffer);
+
+            if (PlcResult == 0) { TextError.Text = "Data Write OK"; }
+            else { TextError.Text = "Data Write Error Number: " + PlcResult.ToString(); }
+
+            dbReadGetTextBox.Text = ByteArrayToString(dataBuffer);
         }
     }
 }

@@ -6,3 +6,14 @@ C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\
 C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csproj.GenerateResource.Cache
 C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.exe
 C:\Users\WinCC_73\Desktop\komunikace_PLC_profinet_VB\sharp7-full-1.0.0\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.pdb
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\bin\x64\CSClient.exe.config
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\bin\x64\CSClient.exe
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\bin\x64\CSClient.pdb
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csproj.AssemblyReference.cache
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.MainForm.resources
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.Properties.Resources.resources
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csproj.GenerateResource.cache
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\WinClient.csproj.CoreCompileInputs.cache
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.exe
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.pdb
+C:\Users\Libor.Svoboda\Downloads\PLC-Siemens-Series-to-MSSQL-App\examples\WinForm\CSharp\CSClient\obj\x64\Release\CSClient.exe.config

@@ -129,14 +129,45 @@
             this.txtDateTime = new System.Windows.Forms.TextBox();
             this.ReadDateTimeBtn = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.DBGetBtn = new System.Windows.Forms.Button();
+            this.txtDBGet = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.BlockInfoBtn = new System.Windows.Forms.Button();
             this.txtBI = new System.Windows.Forms.TextBox();
             this.txtBlockNum = new System.Windows.Forms.TextBox();
             this.CBBlock = new System.Windows.Forms.ComboBox();
-            this.txtDBGet = new System.Windows.Forms.TextBox();
-            this.DBGetBtn = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.dbReadTextBox = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.BufferLength = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.SizeBox = new System.Windows.Forms.TextBox();
+            this.DbReadButton = new System.Windows.Forms.Button();
+            this.label38 = new System.Windows.Forms.Label();
+            this.StartField = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.DbField = new System.Windows.Forms.TextBox();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.dbReadGetTextBox = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.BufferGetLength = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.DbGetSize = new System.Windows.Forms.TextBox();
+            this.DbGetReadButton = new System.Windows.Forms.Button();
+            this.label46 = new System.Windows.Forms.Label();
+            this.DbGetField = new System.Windows.Forms.TextBox();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.DbWriteTextBox = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.DbWriteSize = new System.Windows.Forms.TextBox();
+            this.DbWriteButton = new System.Windows.Forms.Button();
+            this.label48 = new System.Windows.Forms.Label();
+            this.DbWriteField = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.DbWriteStart = new System.Windows.Forms.TextBox();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -149,6 +180,9 @@
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.tabPage9.SuspendLayout();
             this.SuspendLayout();
             // 
             // Label11
@@ -241,7 +275,7 @@
             this.TxtSlot.Name = "TxtSlot";
             this.TxtSlot.Size = new System.Drawing.Size(44, 20);
             this.TxtSlot.TabIndex = 25;
-            this.TxtSlot.Text = "2";
+            this.TxtSlot.Text = "0";
             // 
             // Label2
             // 
@@ -275,7 +309,8 @@
             this.TxtIP.Name = "TxtIP";
             this.TxtIP.Size = new System.Drawing.Size(100, 20);
             this.TxtIP.TabIndex = 22;
-            this.TxtIP.Text = "192.168.0.12";
+            this.TxtIP.Text = "10.147.236.110";
+            this.TxtIP.TextChanged += new System.EventHandler(this.TxtIP_TextChanged);
             // 
             // TextError
             // 
@@ -307,6 +342,9 @@
             this.tabControl.Controls.Add(this.tabPage4);
             this.tabControl.Controls.Add(this.tabPage5);
             this.tabControl.Controls.Add(this.tabPage6);
+            this.tabControl.Controls.Add(this.tabPage7);
+            this.tabControl.Controls.Add(this.tabPage8);
+            this.tabControl.Controls.Add(this.tabPage9);
             this.tabControl.Location = new System.Drawing.Point(12, 64);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -1222,6 +1260,29 @@
             this.tabPage6.Text = "Directory";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // DBGetBtn
+            // 
+            this.DBGetBtn.Location = new System.Drawing.Point(19, 269);
+            this.DBGetBtn.Name = "DBGetBtn";
+            this.DBGetBtn.Size = new System.Drawing.Size(100, 23);
+            this.DBGetBtn.TabIndex = 74;
+            this.DBGetBtn.Text = "DB Get";
+            this.DBGetBtn.UseVisualStyleBackColor = true;
+            this.DBGetBtn.Click += new System.EventHandler(this.DBGetBtn_Click);
+            // 
+            // txtDBGet
+            // 
+            this.txtDBGet.BackColor = System.Drawing.Color.White;
+            this.txtDBGet.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDBGet.ForeColor = System.Drawing.Color.Black;
+            this.txtDBGet.Location = new System.Drawing.Point(19, 298);
+            this.txtDBGet.Multiline = true;
+            this.txtDBGet.Name = "txtDBGet";
+            this.txtDBGet.ReadOnly = true;
+            this.txtDBGet.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtDBGet.Size = new System.Drawing.Size(584, 203);
+            this.txtDBGet.TabIndex = 73;
+            // 
             // label37
             // 
             this.label37.AutoEllipsis = true;
@@ -1290,28 +1351,316 @@
             this.CBBlock.Size = new System.Drawing.Size(100, 22);
             this.CBBlock.TabIndex = 67;
             // 
-            // txtDBGet
+            // tabPage7
             // 
-            this.txtDBGet.BackColor = System.Drawing.Color.White;
-            this.txtDBGet.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDBGet.ForeColor = System.Drawing.Color.Black;
-            this.txtDBGet.Location = new System.Drawing.Point(19, 298);
-            this.txtDBGet.Multiline = true;
-            this.txtDBGet.Name = "txtDBGet";
-            this.txtDBGet.ReadOnly = true;
-            this.txtDBGet.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDBGet.Size = new System.Drawing.Size(584, 203);
-            this.txtDBGet.TabIndex = 73;
+            this.tabPage7.Controls.Add(this.dbReadTextBox);
+            this.tabPage7.Controls.Add(this.label42);
+            this.tabPage7.Controls.Add(this.BufferLength);
+            this.tabPage7.Controls.Add(this.label41);
+            this.tabPage7.Controls.Add(this.SizeBox);
+            this.tabPage7.Controls.Add(this.DbReadButton);
+            this.tabPage7.Controls.Add(this.label38);
+            this.tabPage7.Controls.Add(this.StartField);
+            this.tabPage7.Controls.Add(this.label40);
+            this.tabPage7.Controls.Add(this.DbField);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(620, 511);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "DBRead";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // DBGetBtn
+            // dbReadTextBox
             // 
-            this.DBGetBtn.Location = new System.Drawing.Point(19, 269);
-            this.DBGetBtn.Name = "DBGetBtn";
-            this.DBGetBtn.Size = new System.Drawing.Size(100, 23);
-            this.DBGetBtn.TabIndex = 74;
-            this.DBGetBtn.Text = "DB Get";
-            this.DBGetBtn.UseVisualStyleBackColor = true;
-            this.DBGetBtn.Click += new System.EventHandler(this.DBGetBtn_Click);
+            this.dbReadTextBox.BackColor = System.Drawing.Color.White;
+            this.dbReadTextBox.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dbReadTextBox.ForeColor = System.Drawing.Color.Black;
+            this.dbReadTextBox.Location = new System.Drawing.Point(21, 72);
+            this.dbReadTextBox.Multiline = true;
+            this.dbReadTextBox.Name = "dbReadTextBox";
+            this.dbReadTextBox.ReadOnly = true;
+            this.dbReadTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dbReadTextBox.Size = new System.Drawing.Size(584, 280);
+            this.dbReadTextBox.TabIndex = 72;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(220, 14);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(68, 13);
+            this.label42.TabIndex = 71;
+            this.label42.Text = "BufferLength";
+            // 
+            // BufferLength
+            // 
+            this.BufferLength.Location = new System.Drawing.Point(223, 35);
+            this.BufferLength.Name = "BufferLength";
+            this.BufferLength.Size = new System.Drawing.Size(57, 20);
+            this.BufferLength.TabIndex = 70;
+            this.BufferLength.Text = "1";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(149, 14);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(56, 13);
+            this.label41.TabIndex = 69;
+            this.label41.Text = "Size Bytes";
+            // 
+            // SizeBox
+            // 
+            this.SizeBox.Location = new System.Drawing.Point(152, 35);
+            this.SizeBox.Name = "SizeBox";
+            this.SizeBox.Size = new System.Drawing.Size(57, 20);
+            this.SizeBox.TabIndex = 68;
+            this.SizeBox.Text = "1";
+            // 
+            // DbReadButton
+            // 
+            this.DbReadButton.Location = new System.Drawing.Point(508, 33);
+            this.DbReadButton.Name = "DbReadButton";
+            this.DbReadButton.Size = new System.Drawing.Size(97, 23);
+            this.DbReadButton.TabIndex = 67;
+            this.DbReadButton.Text = "Read";
+            this.DbReadButton.UseVisualStyleBackColor = true;
+            this.DbReadButton.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(83, 14);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(44, 13);
+            this.label38.TabIndex = 66;
+            this.label38.Text = "Start Bit";
+            // 
+            // StartField
+            // 
+            this.StartField.Location = new System.Drawing.Point(86, 35);
+            this.StartField.Name = "StartField";
+            this.StartField.Size = new System.Drawing.Size(57, 20);
+            this.StartField.TabIndex = 64;
+            this.StartField.Text = "0";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(32, 14);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(22, 13);
+            this.label40.TabIndex = 65;
+            this.label40.Text = "DB";
+            // 
+            // DbField
+            // 
+            this.DbField.Location = new System.Drawing.Point(35, 35);
+            this.DbField.Name = "DbField";
+            this.DbField.Size = new System.Drawing.Size(45, 20);
+            this.DbField.TabIndex = 63;
+            this.DbField.Text = "2800";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.dbReadGetTextBox);
+            this.tabPage8.Controls.Add(this.label43);
+            this.tabPage8.Controls.Add(this.BufferGetLength);
+            this.tabPage8.Controls.Add(this.label44);
+            this.tabPage8.Controls.Add(this.DbGetSize);
+            this.tabPage8.Controls.Add(this.DbGetReadButton);
+            this.tabPage8.Controls.Add(this.label46);
+            this.tabPage8.Controls.Add(this.DbGetField);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(620, 511);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "DBGet";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // dbReadGetTextBox
+            // 
+            this.dbReadGetTextBox.BackColor = System.Drawing.Color.White;
+            this.dbReadGetTextBox.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dbReadGetTextBox.ForeColor = System.Drawing.Color.Black;
+            this.dbReadGetTextBox.Location = new System.Drawing.Point(14, 70);
+            this.dbReadGetTextBox.Multiline = true;
+            this.dbReadGetTextBox.Name = "dbReadGetTextBox";
+            this.dbReadGetTextBox.ReadOnly = true;
+            this.dbReadGetTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dbReadGetTextBox.Size = new System.Drawing.Size(584, 280);
+            this.dbReadGetTextBox.TabIndex = 82;
+            this.dbReadGetTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(150, 12);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(68, 13);
+            this.label43.TabIndex = 81;
+            this.label43.Text = "BufferLength";
+            // 
+            // BufferGetLength
+            // 
+            this.BufferGetLength.Location = new System.Drawing.Point(153, 33);
+            this.BufferGetLength.Name = "BufferGetLength";
+            this.BufferGetLength.Size = new System.Drawing.Size(57, 20);
+            this.BufferGetLength.TabIndex = 80;
+            this.BufferGetLength.Text = "1";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(79, 12);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(56, 13);
+            this.label44.TabIndex = 79;
+            this.label44.Text = "Size Bytes";
+            // 
+            // DbGetSize
+            // 
+            this.DbGetSize.Location = new System.Drawing.Point(82, 33);
+            this.DbGetSize.Name = "DbGetSize";
+            this.DbGetSize.Size = new System.Drawing.Size(57, 20);
+            this.DbGetSize.TabIndex = 78;
+            this.DbGetSize.Text = "1";
+            // 
+            // DbGetReadButton
+            // 
+            this.DbGetReadButton.Location = new System.Drawing.Point(501, 31);
+            this.DbGetReadButton.Name = "DbGetReadButton";
+            this.DbGetReadButton.Size = new System.Drawing.Size(97, 23);
+            this.DbGetReadButton.TabIndex = 77;
+            this.DbGetReadButton.Text = "Read";
+            this.DbGetReadButton.UseVisualStyleBackColor = true;
+            this.DbGetReadButton.Click += new System.EventHandler(this.button3_Click_2);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(25, 12);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(22, 13);
+            this.label46.TabIndex = 75;
+            this.label46.Text = "DB";
+            // 
+            // DbGetField
+            // 
+            this.DbGetField.Location = new System.Drawing.Point(28, 33);
+            this.DbGetField.Name = "DbGetField";
+            this.DbGetField.Size = new System.Drawing.Size(45, 20);
+            this.DbGetField.TabIndex = 73;
+            this.DbGetField.Text = "2800";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.label49);
+            this.tabPage9.Controls.Add(this.DbWriteStart);
+            this.tabPage9.Controls.Add(this.DbWriteTextBox);
+            this.tabPage9.Controls.Add(this.label45);
+            this.tabPage9.Controls.Add(this.textBox2);
+            this.tabPage9.Controls.Add(this.label47);
+            this.tabPage9.Controls.Add(this.DbWriteSize);
+            this.tabPage9.Controls.Add(this.DbWriteButton);
+            this.tabPage9.Controls.Add(this.label48);
+            this.tabPage9.Controls.Add(this.DbWriteField);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(620, 511);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "DbWrite";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // DbWriteTextBox
+            // 
+            this.DbWriteTextBox.BackColor = System.Drawing.Color.White;
+            this.DbWriteTextBox.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DbWriteTextBox.ForeColor = System.Drawing.Color.Black;
+            this.DbWriteTextBox.Location = new System.Drawing.Point(15, 72);
+            this.DbWriteTextBox.Multiline = true;
+            this.DbWriteTextBox.Name = "DbWriteTextBox";
+            this.DbWriteTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.DbWriteTextBox.Size = new System.Drawing.Size(584, 280);
+            this.DbWriteTextBox.TabIndex = 90;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(220, 14);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(68, 13);
+            this.label45.TabIndex = 89;
+            this.label45.Text = "BufferLength";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(223, 35);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(57, 20);
+            this.textBox2.TabIndex = 88;
+            this.textBox2.Text = "1";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(149, 14);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(56, 13);
+            this.label47.TabIndex = 87;
+            this.label47.Text = "Size Bytes";
+            // 
+            // DbWriteSize
+            // 
+            this.DbWriteSize.Location = new System.Drawing.Point(152, 35);
+            this.DbWriteSize.Name = "DbWriteSize";
+            this.DbWriteSize.Size = new System.Drawing.Size(57, 20);
+            this.DbWriteSize.TabIndex = 86;
+            this.DbWriteSize.Text = "1";
+            // 
+            // DbWriteButton
+            // 
+            this.DbWriteButton.Location = new System.Drawing.Point(502, 33);
+            this.DbWriteButton.Name = "DbWriteButton";
+            this.DbWriteButton.Size = new System.Drawing.Size(97, 23);
+            this.DbWriteButton.TabIndex = 85;
+            this.DbWriteButton.Text = "Write";
+            this.DbWriteButton.UseVisualStyleBackColor = true;
+            this.DbWriteButton.Click += new System.EventHandler(this.DbWriteButton_Click);
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(26, 14);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(22, 13);
+            this.label48.TabIndex = 84;
+            this.label48.Text = "DB";
+            // 
+            // DbWriteField
+            // 
+            this.DbWriteField.Location = new System.Drawing.Point(29, 35);
+            this.DbWriteField.Name = "DbWriteField";
+            this.DbWriteField.Size = new System.Drawing.Size(45, 20);
+            this.DbWriteField.TabIndex = 83;
+            this.DbWriteField.Text = "2800";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(83, 14);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(44, 13);
+            this.label49.TabIndex = 92;
+            this.label49.Text = "Start Bit";
+            // 
+            // DbWriteStart
+            // 
+            this.DbWriteStart.Location = new System.Drawing.Point(86, 35);
+            this.DbWriteStart.Name = "DbWriteStart";
+            this.DbWriteStart.Size = new System.Drawing.Size(57, 20);
+            this.DbWriteStart.TabIndex = 91;
+            this.DbWriteStart.Text = "0";
             // 
             // MainForm
             // 
@@ -1360,6 +1709,12 @@
             this.groupBox3.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1476,6 +1831,37 @@
         private System.Windows.Forms.ComboBox CBBlock;
         private System.Windows.Forms.Button DBGetBtn;
         internal System.Windows.Forms.TextBox txtDBGet;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPage8;
+        internal System.Windows.Forms.TextBox dbReadTextBox;
+        internal System.Windows.Forms.Label label42;
+        internal System.Windows.Forms.TextBox BufferLength;
+        internal System.Windows.Forms.Label label41;
+        internal System.Windows.Forms.TextBox SizeBox;
+        internal System.Windows.Forms.Button DbReadButton;
+        internal System.Windows.Forms.Label label38;
+        internal System.Windows.Forms.TextBox StartField;
+        internal System.Windows.Forms.Label label40;
+        internal System.Windows.Forms.TextBox DbField;
+        internal System.Windows.Forms.TextBox dbReadGetTextBox;
+        internal System.Windows.Forms.Label label43;
+        internal System.Windows.Forms.TextBox BufferGetLength;
+        internal System.Windows.Forms.Label label44;
+        internal System.Windows.Forms.TextBox DbGetSize;
+        internal System.Windows.Forms.Button DbGetReadButton;
+        internal System.Windows.Forms.Label label46;
+        internal System.Windows.Forms.TextBox DbGetField;
+        private System.Windows.Forms.TabPage tabPage9;
+        internal System.Windows.Forms.TextBox DbWriteTextBox;
+        internal System.Windows.Forms.Label label45;
+        internal System.Windows.Forms.TextBox textBox2;
+        internal System.Windows.Forms.Label label47;
+        internal System.Windows.Forms.TextBox DbWriteSize;
+        internal System.Windows.Forms.Button DbWriteButton;
+        internal System.Windows.Forms.Label label48;
+        internal System.Windows.Forms.TextBox DbWriteField;
+        internal System.Windows.Forms.Label label49;
+        internal System.Windows.Forms.TextBox DbWriteStart;
     }
 }
 
